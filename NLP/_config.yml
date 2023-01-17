@@ -1,0 +1,23 @@
+#Site Settings
+name: COSC 101
+title: Intro to Computing I
+dept: "Colgate University Department of Computer Science"
+depturl: "http://cs.colgate.edu"
+inst: "Colgate University"
+insturl: "http://www.colgate.edu"
+description: Course website for Intro to Computing I at Colgate University
+url: "https://colgateuniversitycomputerscience.github.io"
+baseurl: "/cosc101website"
+google_analytics: UA-83277168-2
+font-awesome-include: true
+permalink: /404.html
+
+#build settings
+markdown: kramdown
+exclude: ["README.md"]
+
+#Material Jekyll Theme: http://alexcarpenter.github.io/material-jekyll-theme
+themeColor: 'colgate' #options: purple, green, blue, orange, purple, grey
+fixedNav: 'true' # true or false
+sass:
+  style: compressed
